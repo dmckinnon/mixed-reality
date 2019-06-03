@@ -314,6 +314,10 @@ The detection distance for size increases linearly.
 
 QR detection works with a range of angles += 45deg. This is to ensure we have proper resolution to detect the code.
 
+The following chart describes the minimum and maximum detection distances for QR tracking - the blue line shows the minimum distance we can detect the code at, whereas the orange line shows the maximum distance we can guarantee detection for. 
+
+![QR code detection graph](images/qr-sizedistancegraph.png) 
+
 ### QR codes with logos
 QR codes with logos have not been tested and are currently unsupported.
 
